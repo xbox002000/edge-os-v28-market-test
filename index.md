@@ -1,17 +1,17 @@
-﻿# Edge OS 鈥?Open Audit & Data Samples (Gumroad + API Demo)
+# Edge OS 鈥?Open Audit & Data Samples (Gumroad + API Demo)
 
-> **STATUS 2026-08-30:** GitHub free assets LIVE. Paid $39 pack CTA is PENDING — Gumroad publish requires manual login. See MANAUAL_ACTION at https://github.com/xbox002000/edge-os-v28-market-test
+> **STATUS 2026-08-31:** All assets LIVE. Paid $39 pack is available on Gumroad: [Quant Strategy Audit Pack — 8 Kill-Gates](https://gumroad.com/l/yjpxkw)
 
 <!-- This page is the secondary distribution surface for V28. Primary is Gumroad Discover. Indexed for search: `quant audit checklist`, `backtest integrity`, `funding rate history`. -->
 
 **What this is:** Two free, genuinely useful samples from Edge OS V04-V27 (800+ backtested configs, 15 market frontiers). No trading, no signals, no wallet.
 
-## 1) Quant Strategy Audit 鈥?Lite (Free 1-Page)
+## 1) Quant Strategy Audit — Lite (Free 1-Page)
 
 Kill bad backtests in 10 minutes using the 8 gates that killed Edge OS S04-S08.
 
-- **Download free:** [`quant_audit_lite_1page.md`](../V28_D2_Quant_Audit_Pack/quant_audit_lite_1page.md) 鈥?1 page, 8 kill-gates, scoring. Useful even if you never buy.
-- **Full pack ($39):** [`quant_audit_pack_full.md`](../V28_D2_Quant_Audit_Pack/quant_audit_pack_full.md) 鈥?6 sections, 8 expanded checklists + cost worksheet + walk-forward template + kill-gate scorer + reporting template. **Gumroad (PENDING manual publish — product not yet public):** `gumroad.com/l/quant-audit-pack` (live Day 0 of V28, Business & Money).
+- **Download free:** [`quant_audit_lite_1page.md`](quant_audit_lite_1page.md) — 1 page, 8 kill-gates, scoring. Useful even if you never buy.
+- **Full pack ($39):** [`quant_audit_pack_full.md`](quant_audit_pack_full.md) — 6 sections, 8 expanded checklists + cost worksheet + walk-forward template + kill-gate scorer + reporting template. **Gumroad Direct Buy:** [gumroad.com/l/yjpxkw](https://gumroad.com/l/yjpxkw) (Live, Business & Money).
 
 **Search terms this page serves:** `quant strategy audit checklist`, `backtest integrity checklist`, `walk-forward validation template`, `strategy kill gate`.
 
@@ -36,7 +36,7 @@ Kill bad backtests in 10 minutes using the 8 gates that killed Edge OS S04-S08.
 | Impressions | Gumroad Discover + GitHub page views | Gumroad/RapidAPI-category + GitHub |
 | Downloads / trials | Lite downloads | Sample JSON downloads / mock trials |
 | Waitlist / pricing views | Full pack pricing clicks | Pricing page views |
-| Payment | $39 purchase (L5) | $9 subscribe (L5) |
+| Payment | $39 purchase ([Gumroad Direct](https://gumroad.com/l/yjpxkw)) | $9 subscribe (L5) |
 
 All events timestamped in `V28_tracking.csv` (public). Anti-gaming: no self/friends/test/refunded counts.
 
