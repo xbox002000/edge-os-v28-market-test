@@ -1,46 +1,65 @@
 # Edge OS — Systematic Strategy Audit & Data Infrastructure
 
 [![Status: Live](https://img.shields.io/badge/Status-LIVE-10B981?style=flat-square)](https://gumroad.com/l/yjpxkw)
-[![Gates: 8 Kill--Gates](https://img.shields.io/badge/Framework-8_Kill--Gates-00F0FF?style=flat-square)](quant_audit_lite_1page.md)
+[![Framework: 8 Kill--Gates](https://img.shields.io/badge/Framework-8_Kill--Gates-00F0FF?style=flat-square)](quant_audit_lite_1page.md)
 [![Format: Markdown & Notion](https://img.shields.io/badge/Format-Markdown_%26_Notion-F59E0B?style=flat-square)](https://gumroad.com/l/yjpxkw)
 [![Audited: 800+ Configs](https://img.shields.io/badge/Tested-800%2B_Configs-8B5CF6?style=flat-square)](https://gumroad.com/l/yjpxkw)
 
 ![Quant Strategy Audit Pack Cover](assets/gumroad_cover.png)
 
-> **STATUS 2026-08-31:** All open-source audit tools and sample datasets are **LIVE**. Full 6-section pack available on Gumroad: [**Quant Strategy Audit Pack — 8 Kill-Gates ($39)**](https://gumroad.com/l/yjpxkw)
+> **🎯 WHO THIS IS FOR:** Quantitative researchers, systematic traders, and crypto/equity/FX backtesters running trend, momentum, funding carry, statistical arbitrage, or mean-reversion models who need to know if an edge is real before risking capital.
+
+> **⚠️ ANTI-GURU DISCLAIMER:** This product does **NOT** promise alpha, trading signals, or "get-rich" algorithms. It is a ruthless falsification and stress-testing system designed to kill unprofitable backtests before you lose real capital.
 
 ---
 
-## 🛡️ 1) Quant Strategy Audit Pack (The 8 Kill-Gates)
+## 🛑 The Core Problem: Why Backtests Fail in Production
 
-Most backtests fail in production because of hidden structural traps: look-ahead leakage, unmodeled taker fees, negative funding carry bleed, and timestamp misalignment.
+Most backtested strategies collapse when deployed live due to silent structural traps:
+- **Timestamp & Lookahead Leakage:** Exact-timestamp matching and survivorship bias.
+- **Friction & Fee Denial:** Assuming zero taker fees or unrealistically tight fills.
+- **Negative Carry Bleed:** Price momentum being eaten alive by continuous funding payments.
 
-The **8 Kill-Gates Framework** is a systematic falsification checklist built to stress-test and **kill unprofitable trading strategies in 10 minutes** before risking real capital.
+The **8 Kill-Gates Framework** enables you to audit and **kill false edges in 10 minutes** before risking a single dollar.
 
 ![The 8 Kill Gates Funnel](assets/preview_kill_gates_funnel.png)
 
-### What You Get:
-- **Free 1-Page Lite Scorer:** [`quant_audit_lite_1page.md`](quant_audit_lite_1page.md) — The 8 core falsification gates on a single page. 100% free and instantly usable.
-- **Full Institutional Audit Pack ($39):** [`quant_audit_pack_full.md`](quant_audit_pack_full.md) — 6 complete modules including:
-  1. 8 Quantitative Kill-Gates with PASS/CONDITIONAL/KILL thresholds
-  2. Backtest Data Integrity & Leakage Checklist
-  3. Interactive Cost & Friction Model Worksheet (Taker fees + Carry + Time hurdle)
-  4. Walk-Forward Persistence & Regime Stability Worksheet
-  5. 7-Criteria Strategy Kill-Gate Scorer
-  6. Standardized Strategy Post-Mortem & Reporting Template
-  - **Direct Purchase on Gumroad:** [**gumroad.com/l/yjpxkw**](https://gumroad.com/l/yjpxkw) (Instant Download, Notion & Markdown Ready).
+---
+
+## 📥 Instant Free Download (No Email Required)
+
+Get the complete 8-gate scoring table immediately:
+
+👉 [**Download Free 1-Page Audit Lite (`quant_audit_lite_1page.md`)**](quant_audit_lite_1page.md)  
+*(1 page, 8 falsification gates, instant scoring. Free forever.)*
 
 ---
 
-## 📊 2) The Friction & Carry Reality Check
+## 📦 Full Institutional Audit Pack ($39 USD)
 
-Why "Gross +87%" strategies turn into Net -14% losses when deployed:
+The complete systematic falsification toolkit including 6 comprehensive modules:
+
+1. **8 Quantitative Kill-Gates Checklist** (With hard PASS / CONDITIONAL / KILL criteria)
+2. **Backtest Integrity & Data Hygiene Checklist** (Encoding, timestamp alignment, look-ahead checks)
+3. **Interactive Cost & Friction Model Worksheet** (3-tier taker fees + borrow + carry decomposition)
+4. **Walk-Forward & Regime Persistence Worksheet** (Rolling 60/20 window matrix)
+5. **7-Criteria Strategy Kill-Gate Scorer** (Standardized 0–5 falsification engine)
+6. **Strategy Post-Mortem & Reporting Template** (Audit-ready executive documentation)
+
+👉 [**Direct Buy Full Audit Pack ($39 on Gumroad)**](https://gumroad.com/l/yjpxkw)  
+*(Instant Download • Notion & Markdown Ready • 30-Day Money-Back Guarantee)*
+
+---
+
+## 📊 The Friction & Carry Reality Check
+
+A real case study from Edge OS: How naive "Gross +87.4%" backtests evaporate into Net -14.2% losses under institutional friction:
 
 ![Cost & Friction Model Reality](assets/preview_cost_worksheet.png)
 
 ---
 
-## ⚡ 3) Normalized Funding Rate Data & Mock API
+## ⚡ Normalized Funding Rate Dataset (Sample / Mock API)
 
 300 point-in-time normalized Binance funding records (BTCUSDT/ETHUSDT) with verified UTF-8 encoding and zero look-ahead bias:
 
@@ -61,4 +80,18 @@ Why "Gross +87%" strategies turn into Net -14% losses when deployed:
 | **Full Version** | [**Gumroad Direct ($39)**](https://gumroad.com/l/yjpxkw) | [API Pricing Tiers](pricing.md) |
 
 *All experiments and conversion events are publicly timestamped in `V28_tracking.csv`.*
+
+<script>
+// Dynamic Referral Attribution: Forward ?src= to Gumroad purchase links
+document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const src = urlParams.get('src');
+    if (src) {
+        document.querySelectorAll('a[href*="gumroad.com/l/yjpxkw"]').forEach(function(link) {
+            const separator = link.href.includes('?') ? '&' : '?';
+            link.href = link.href + separator + 'wanted=true&ref=' + encodeURIComponent(src);
+        });
+    }
+});
+</script>
 
